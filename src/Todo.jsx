@@ -1,11 +1,11 @@
 import React from "react";
 
-function Todo({ todo, index, completeTodo, removeTodo }) {
+function Todo({ todo,  completeTodo, removeTodo }) {
     return (
         <div className="todo">
             <span style={{ textDecoration: todo.isCompleted ? "line-through" : "none" }}>{todo.name}</span>
-            <button type="button" onClick={() => completeTodo(index)}>✅</button>
-            <button type="button"  onClick={() => removeTodo(index)}>❌</button>
+            <button type="button" className="btn btn-complete" onClick={() => completeTodo()}>✅</button>
+            <button type="button" className="btn btn-delete" onClick={() => removeTodo()}>❌</button>
         </div>
     )
 }

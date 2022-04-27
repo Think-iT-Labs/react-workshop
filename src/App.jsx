@@ -41,10 +41,9 @@ const completeTodo = (index) => {
         return (
             <Todo 
                 todo={todo}
-                index={index}
                 key={index}
-                completeTodo={completeTodo}
-                removeTodo={removeTodo}
+                completeTodo={() => completeTodo(index)}
+                removeTodo={() => removeTodo(index)}
             />
             );
         })}
