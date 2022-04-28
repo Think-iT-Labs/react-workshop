@@ -7,14 +7,13 @@ import './App.css';
 function App() {
   const [todos, setTodos] = useState([
     {
-      name: "lorem ipsum",
+      name: "Learn react!",
       isCompleted: false,
     },
   ]);
 
-
 const addTodo = (todo) => {
-  const newTodos = [...todos, { name: todo.name, isCompleted: false }];
+  const newTodos = [...todos, todo];
   setTodos(newTodos);
 };
 
@@ -30,11 +29,9 @@ const completeTodo = (index) => {
     setTodos(newTodos);
   };
 
-
-  
   return (
     <div className="App">
-      <h1>Awesome TODO</h1>
+      <h1>Creative TODO 📚</h1>
       <Form addTodo={addTodo}/>
       <div className="todos">
         {todos.map((todo, index) => {

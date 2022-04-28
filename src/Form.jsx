@@ -18,17 +18,15 @@ function Form({ addTodo }) {
     }
 
     return (
-        <div className="form">
-            <form onSubmit={handleSubmit}>
+            <form className="form" onSubmit={handleSubmit}>
                 <input type="text" 
                 placeholder="What do you want to do ?" 
                 autoFocus
                 value={value}
                 onChange={handleChange}
                 />
-                <button>Add</button>
+                <button className="btn">Add</button>
         </form>
-        </div>
     )
 }
 
