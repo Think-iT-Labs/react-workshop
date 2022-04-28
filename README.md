@@ -1,6 +1,6 @@
 # Overview
 
-This repository possesses the code of a workshop held on 28th March 2022 by [@OlfaBenSoussia](https://github.com/OlfaBenSoussia) and [@safoine27](https://github.com/safoin27) 
+This repository possesses the code of a workshop held on 28th March 2022 by [@OlfaBenSoussia](https://github.com/OlfaBenSoussia) and [@safoine27](https://github.com/safoin27) with students from ISI 
 
 The app is a simple Todo application using react 18 with a couple of basic react concepts
 
@@ -38,4 +38,4 @@ You can use [nvm](https://github.com/nvm-sh/nvm/blob/master/README.md) to switch
 
 # Contributing 
 
-Thanks for considering contributing! There’s information about how to get started on how to contibute and submit a pull request here.
+Thanks for considering contributing! There’s information about how to get started on how to contibute and submit a pull request [here](https://github.com/Think-iT-Labs/react-workshop/blob/master/CONTRIBUTING.md).
